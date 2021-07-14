@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>change html attribute with using js function</title>
+        <body>
+            <img id="data" src="img/1.jpg" style="width: 500px;"></img><br><br><br>
+            <button onclick="img1()" style="width: 150px; height: 150px;border-radius: 30%;">Image1</button>
+            <button onclick="img2()" style="width: 150px; height: 150px;border-radius: 30%;">Image2</button>
+            <script>
+                function img1()
+                {
+                    document.getElementById('data').src="img/1.jpg";
+                }
+                function img2()
+                {
+                    document.getElementById('data').src="img/2.jpg";
+                }
+            </script>
+        </body>
+    </head>
+</html>
